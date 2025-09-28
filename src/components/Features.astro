@@ -1,0 +1,110 @@
+<section id="features">
+    <h2>FEATURES</h2>
+    <ul class="features">
+        <li class="feature-left">
+            <div>
+                <h3>Prompt Editor</h3>
+                <p>Editor with syntax highlighting, formatting tools, and version control. Craft your prompts with precision.</p>
+            </div>
+            <img src="/app.png" alt="Promptoy" />
+        </li>
+        <li class="feature-right">
+            <div>
+                <h3>Prompt templating</h3>
+                <p>Create reusable templates with variables for consistent prompt generation.</p>
+            </div>
+            <img src="/app.png" alt="Promptoy" />
+        </li>
+        <li class="feature-left">
+            <div>
+                <h3>Version control</h3>
+                <p>Track changes and maintain different versions of your prompts with ease. Never lose a good prompt iteration again.</p>
+            </div>
+            <img src="/app.png" alt="Promptoy" />
+        </li>
+        <li class="feature-right">
+            <div>
+                <h3>Version comparing</h3>
+                <p>Side-by-side comparison of prompt versions to track improvements and changes. Understand what works best with visual diffs.</p>
+            </div>
+            <img src="/app.png" alt="Promptoy" />
+        </li>
+        <li class="feature-left">
+            <div>
+                <h3>Prompt notes</h3>
+                <p>Add contextual notes to your prompts for better organization. Keep track of usage, results, and ideas.</p>
+            </div>
+            <img src="/app.png" alt="Promptoy" />
+        </li>
+    </ul>
+</section>
+
+<style>
+    #features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        padding: 0;
+    }
+    .feature-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .feature-left h3 {
+        text-align: center;
+    }
+    .feature-left p {
+        text-align: center;
+        max-width: 500px;
+    }
+    .feature-left img {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: 5px solid #000;
+    }
+    .feature-right {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .feature-right h3 {
+        text-align: center;
+    }
+    .feature-right p {
+        text-align: center;
+        max-width: 500px;
+    }
+    .feature-right img {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: 5px solid #000;
+    }
+
+    @media (max-width: 768px) {
+        .feature-left, .feature-right {
+            flex-direction: column;
+            gap: 2rem;
+        }
+    }
+</style>

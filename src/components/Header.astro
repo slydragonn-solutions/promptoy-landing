@@ -1,0 +1,65 @@
+<header class="header">
+    <img class="logo" src="/star-icon.png" alt="Promptoy Logo" />
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="/">Home</a></li>
+            <li class="nav-item"><a href="https://github.com/slydragonn-solutions/promptoy-desktop/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">Changelog</a></li>
+            <li class="nav-item">
+                <a href="https://github.com/slydragonn-solutions/promptoy-desktop" target="_blank" rel="noopener noreferrer">
+                    Open Source
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/slydragonn-solutions/promptoy-desktop/releases" target="_blank" rel="noopener noreferrer">
+                    Download
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 0 5px 0;
+        margin: 0;
+        border-bottom: 1px solid #000;
+    }
+    .nav-item {
+        list-style: none;        
+    }
+    .nav-item a {
+        text-decoration: none;
+        color: #000;
+        padding: 5px;
+    }
+    .nav-item a:hover {
+        color: #1100aa;
+        border-bottom: 2px solid #1100aa;
+    }
+    .logo {
+        width: 128px;
+        height: 128px;
+    }
+    .logo:hover {
+        animation: rotate 2s infinite;
+    }
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
