@@ -3,5 +3,5 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://slydragonn-solutions.github.io/promptoy",
+    site: "https://slydragonn-solutions.github.io/promptoy-landing",
 });
